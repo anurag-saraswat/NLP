@@ -18,8 +18,27 @@ Review rule, for dataset:
 
 
 ## Sentiment_Analysis.ipynb
+Sentiment Analysis using statistical NLP
+
+- Use the following vector space models 
+-- CountVectorizer.
+-- TF-IDF.
+-- Any external vectorizer (cite the original paper).
+- Do sentiment analysis using all (a,b,c) using classical ML techniques 
+-- Naive Bayes Model.
+-- Decision Tree.
+-- Logistic Regression.
+- Report metrics [accuracy, f1 score, confusion matrix] for all the combinations in (1 and 2)
+- Analyse the results. [Report clearly which vector space model is giving better results on each model used]
 
 ## Topic_Extraction.ipynb
+
+Topic analysis and topic (attribute) wise sentiment analysis
+
+- Extract the topics from the reviews using any topic extraction technique of your choice. 
+- Report sentences under each topic.
+- Analyse whether the topics extracted make sense. Justify your claim with some examples.
+- Report topic wise sentiment distribution for the whole repository. Explain the method that you used. Give complete reference of any paper that you use for the purpose. 
 
 
 # Task_2
