@@ -1,6 +1,26 @@
 
 # Task_1
-- Sentiment Analysis 
+## DataSet: 
+Link : http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Amazon_Instant_Video_5.json.gz
+
+Review rule, for dataset: 
+- [overall > 3.0] - positive
+- [overall <= 3.0] - negative
+
+
+## POS_Tag.ipynb
+- Generate term statistics:
+-- Vocabulary size with word frequencies
+-- N-grams
+-- POS collections
+- Verify Zipf’s law – what is the best fit for your corpus?
+- Which set of terms best describe your corpus? 
+
+
+## Sentiment_Analysis.ipynb
+
+## Topic_Extraction.ipynb
+
 
 # Task_2
 
@@ -15,8 +35,8 @@
 - Use the NERs detected in previous file to create annotated documents for NER detection. Divide the document collection into training, validation and test data sets. 
 Implement a custom NER system (for all 4 vector embedding techniques mentioned in (c)) using LSTM. Compare the results of all models obtained (namely, (i) LSTM with word2vec, (ii) LSTM with glove, (iii) LSTM with fast text,
 
-## Sentiment Analysis Using LSTM
-###DataSet : AMAZON review Data Set
+## Sentiment_Analysis_Using_LSTM.ipynb
+### DataSet : AMAZON review Data Set
 
 Develop an 
 - Bi-LSTM based sentiment analysis model using (a) word2vec embeddings (b) glove embeddings.
